@@ -14,7 +14,7 @@ int** identity(int n) {
 
 int main() {
     int n;
-    count <<"ENter the size of the identity matrix: ";
+    cout <<"ENter the size of the identity matrix: ";
     cin >> n;
     int** m = identity(n);
     for (int i = 0; i < n; i++) {
