@@ -13,7 +13,7 @@ int* singleBlock(int n) {
 
 void setColumn(int* matrix, int n, int c, int newValue) {
     for (int i =0; i < n;i++) {
-        maxtrix[i * n + c] = newValue;
+        matrix[i * n + c] = newValue;
     }
     
 }
